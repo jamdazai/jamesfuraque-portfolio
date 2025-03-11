@@ -1,13 +1,14 @@
 import { RevealOnScroll } from "../RevelOnScroll";
 
 
+
 export const Home = () => {
     return <section id="home" className="min-h-screen flex items-center justify-center relative">
         <RevealOnScroll>
            <div className="text-center z-10 px-4">
            <div className="flex justify-center">
-                <img className="w-72 h-72 rounded-full object-cover" src="./src/assets/img/131.jpeg" alt="Profile Image" />
-            </div>
+           <img className="w-72 h-72 rounded-full object-cover" src="/profile.jpeg" alt="Profile Image" />
+           </div>
            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
                     James Furaque
                 </h1>

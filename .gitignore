@@ -50,3 +50,5 @@ pnpm-debug.log*
 .eslintcache
 .idea/
 output.log
+
+.vercel
