@@ -28,6 +28,16 @@ export const Home = () => {
                             Contact Me
                                 </a>
                 </div>
+
+                <div className="inline-flex justify-center space-x-6 bg-blue-500 py-1 px-3 rounded mt-6 w-fit mx-auto">
+                    <a href="https://github.com/jamdazai" target="_blank" rel="noopener noreferrer">
+                        <img src="/github.ico" alt="GitHub 1" className="w-10 h-10 transition-transform duration-300 hover:scale-110" />
+                    </a>
+                    <a href="https://linkedin.com/in/james-nicole-furaque-3934682a6" target="_blank" rel="noopener noreferrer">
+                        <img src="/linkedin.ico" alt="LinkedIn" className="w-10 h-10 transition-transform duration-300 hover:scale-110" />
+                    </a>
+                </div>
+
            </div>
         </RevealOnScroll>
     </section>;
