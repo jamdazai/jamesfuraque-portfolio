@@ -45,6 +45,9 @@ export const About = () => {
                             Committed to continuous learning and contributing to organizational success through technical proficiency, teamwork, and a strong work ethic.
                         </p>
                 
+                    <h3 className="text-2xl font-bold mb-0 text-center pt-5">
+                    {" "}
+                    Technical Skills:</h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                                 <h3 className="text-xl font-bold mb-4"> Frontend</h3>

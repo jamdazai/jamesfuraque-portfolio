@@ -52,3 +52,8 @@ pnpm-debug.log*
 output.log
 
 .vercel
+
+
+/public/cv.pdf
+/public/resume.pdf
+/public/profile.jpeg

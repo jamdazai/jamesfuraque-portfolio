@@ -7,11 +7,15 @@ export const Home = () => {
         <RevealOnScroll>
            <div className="text-center z-10 px-4">
            <div className="flex justify-center">
-           <img className="w-72 h-72 rounded-full object-cover" src="/profile.jpeg" alt="Profile Image" />
+           <img className="w-72 h-72 rounded-full object-cover pt-4 pb-4" src="/profile.jpeg" alt="Profile Image" />
            </div>
-           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
+           <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
                     James Furaque
                 </h1>
+
+                <p className="text-gray-400 text-lg mb-3 max-w-lg mx-auto italic">
+                    "You have power over your mind -not outside events. Realize this, and you will find strength." <br></br>-Ludwig Wittgenstein
+                    </p>
 
                 <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
                 Software Developer with a strong emphasis on Backend Development. Proficient in designing and implementing scalable server-side applications and RESTful APIs.
@@ -29,7 +33,7 @@ export const Home = () => {
                                 </a>
                 </div>
 
-                <div className="inline-flex justify-center space-x-6 bg-blue-500 py-1 px-3 rounded mt-6 w-fit mx-auto">
+                <div className="inline-flex justify-center space-x-6 bg-blue-500 py-1 px-3 rounded mt-6 w-fit mx-auto pb-0 mb-0">
                     <a href="https://github.com/jamdazai" target="_blank" rel="noopener noreferrer">
                         <img src="/github.ico" alt="GitHub 1" className="w-10 h-10 transition-transform duration-300 hover:scale-110" />
                     </a>
