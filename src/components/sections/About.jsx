@@ -43,6 +43,7 @@ export const About = () => {
                         <p className="text-gray-300 mb-6">
                             Recognized for strong communication skills, adaptability, and a proactive approach to problem-solving.
                             Committed to continuous learning and contributing to organizational success through technical proficiency, teamwork, and a strong work ethic.
+                            I enjoy tackling complex challenges and continuously improving my skills. With a keen interest in backend development, system architecture, and emerging technologies, I strive to create impactful and innovative applications.
                         </p>
                 
                     <h3 className="text-2xl font-bold mb-0 text-center pt-5">
