@@ -26,14 +26,22 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
                 onClick={() => setMenuOpen(false)} 
                 className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 
                     ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>Projects</a>
-            <a href="#contact" 
+            <a href="#docs" 
                 onClick={() => setMenuOpen(false)} 
                 className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 
-                    ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>Contact</a>
+                    ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>Capstone Docs</a>
             <a href="#resume" 
                 onClick={() => setMenuOpen(false)} 
                 className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 
                     ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>Resume</a>
+            <a href="#cv" 
+                onClick={() => setMenuOpen(false)} 
+                className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 
+                    ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>CV</a>
+            <a href="#contact" 
+                onClick={() => setMenuOpen(false)} 
+                className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 
+                    ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>Contact</a>
                 
 
         </div>
