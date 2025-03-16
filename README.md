@@ -1,12 +1,44 @@
-# React + Vite
+# 🚀 James Furaque's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **React.js-based portfolio website** showcasing my **projects, technical skills, resume, and contact details**. The site features a **clean UI, smooth animations, and an interactive experience**, with a fully responsive design using **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 **Features**
+- 🎨 **Modern UI/UX** – Clean and responsive design with Tailwind CSS.
+- 🏠 **Home Section** – Introduction with bio, quote, and profile image.
+- 🛠️ **About Section** – Displays **technical skills, education, and work experience**.
+- 🚀 **Projects Section** – Showcases my **featured projects** with descriptions and tech stack.
+- 📄 **Resume & CV** – View and download my **resume and CV** in PDF format.
+- 📩 **Contact Form** – Allows visitors to **send messages via EmailJS**.
+- 🔄 **Smooth Scroll Animations** – Elements reveal as the user scrolls.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 **Tech Stack**
+### **Frontend**
+- **React.js** – Component-based UI development.
+- **Tailwind CSS** – Styling for responsive design.
+- **JavaScript & JSX** – Dynamic page rendering.
+
+### **Backend & APIs**
+- **EmailJS** – Handles contact form submissions.
+- **Axios** – Manages API requests.
+
+### **Additional Features**
+- **Intersection Observer API** – Enables scroll-based animations.
+- **State Management (`useState`, `useEffect`)** – Manages UI state and interactions.
+
+---
+
+## 🌍 **Deployment**
+- This portfolio is deployed on Vercel. You can deploy your own version by following these steps:
+
+## 📧 **Contact**
+For inquiries, feel free to reach out via:
+- Portfolio: [jamesfuraque.com](https://james-furaque-portfolio.vercel.app/)
+- LinkedIn: linkedin.com/in/james-nicole-furaque-3934682a6
+- GitHub: github.com/jamdazai
+
+## 📝 **License**
+This project is open-source and available under the MIT License.
