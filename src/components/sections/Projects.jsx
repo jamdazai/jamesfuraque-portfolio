@@ -23,7 +23,10 @@ export const Projects = () => {
                             </div>
 
                             <div className="flex justify-between items-center my-4">
-                                <a href="https://github.com/jamdazai/Daycare-Buddy/tree/main" className="text-blue-400 hover:text-blue-300 transition-colors"> Private Project → </a>
+                                <a href="https://github.com/jamdazai/Daycare-Buddy/tree/main" 
+                                    className="text-blue-400 hover:text-blue-300 transition-colors" 
+                                    target="_blank"
+                                    rel="noopener noreferrer"> Private Project → </a>
                             </div>
                     </div>
 
@@ -40,7 +43,10 @@ export const Projects = () => {
                             </div>
 
                             <div className="flex justify-between items-center my-4">
-                                <a href="https://github.com/jamdazai/OCR_Project" className="text-blue-400 hover:text-blue-300 transition-colors"> Private Project → </a>
+                                <a href="https://github.com/jamdazai/OCR_Project" 
+                                    className="text-blue-400 hover:text-blue-300 transition-colors"
+                                    target="_blank"
+                                    rel="noopener noreferrer"> Private Project → </a>
                             </div>
                     </div>
 
@@ -57,7 +63,10 @@ export const Projects = () => {
                             </div>
 
                             <div className="flex justify-between items-center my-4">
-                                <a href="https://github.com/jamdazai/WebAppDev" className="text-blue-400 hover:text-blue-300 transition-colors"> View Project → </a>
+                                <a href="https://github.com/jamdazai/WebAppDev" 
+                                    className="text-blue-400 hover:text-blue-300 transition-colors"
+                                    target="_blank"
+                                    rel="noopener noreferrer"> Private Project → </a>
                             </div>
                     </div>
 
@@ -74,7 +83,10 @@ export const Projects = () => {
                             </div>
 
                             <div className="flex justify-between items-center my-4">
-                                <a href="https://tictactoe-jam.vercel.app/" className="text-blue-400 hover:text-blue-300 transition-colors"> View Project → </a>
+                                <a href="https://tictactoe-jam.vercel.app/" 
+                                    className="text-blue-400 hover:text-blue-300 transition-colors"
+                                    target="_blank"
+                                    rel="noopener noreferrer"> Private Project → </a>
                             </div>
                     </div>
 
@@ -91,7 +103,10 @@ export const Projects = () => {
                             </div>
 
                             <div className="flex justify-between items-center my-4">
-                                <a href="https://github.com/jamesfuraque/Object-Oriented-Programming/tree/main/Flights%20Reservation%20System" className="text-blue-400 hover:text-blue-300 transition-colors"> View Project → </a>
+                                <a href="https://github.com/jamesfuraque/Object-Oriented-Programming/tree/main/Flights%20Reservation%20System" 
+                                    className="text-blue-400 hover:text-blue-300 transition-colors"
+                                    target="_blank"
+                                    rel="noopener noreferrer"> Private Project → </a>
                             </div>
                     </div>
 
@@ -108,7 +123,10 @@ export const Projects = () => {
                             </div>
 
                             <div className="flex justify-between items-center my-4">
-                                <a href="https://github.com/jamesfuraque/Java/tree/main/Connect%20Four" className="text-blue-400 hover:text-blue-300 transition-colors"> View Project → </a>
+                                <a href="https://github.com/jamesfuraque/Java/tree/main/Connect%20Four" 
+                                    className="text-blue-400 hover:text-blue-300 transition-colors"
+                                    target="_blank"
+                                    rel="noopener noreferrer"> Private Project → </a>
                             </div>
                     </div>
 
@@ -125,7 +143,10 @@ export const Projects = () => {
                             </div>
 
                             <div className="flex justify-between items-center my-4">
-                                <a href="https://github.com/jamesfuraque/Python/tree/main/Retail%20Employee%20Discounts" className="text-blue-400 hover:text-blue-300 transition-colors"> View Project → </a>
+                                <a href="https://github.com/jamesfuraque/Python/tree/main/Retail%20Employee%20Discounts" 
+                                    className="text-blue-400 hover:text-blue-300 transition-colors"
+                                    target="_blank"
+                                    rel="noopener noreferrer"> Private Project → </a>
                             </div>
                     </div>
                 </div>
