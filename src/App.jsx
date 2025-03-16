@@ -11,6 +11,7 @@ import { Projects } from './components/sections/Projects';
 import { Contact } from './components/sections/Contact';
 import { Resume } from './components/sections/Resume';
 import { CV } from './components/sections/CV'
+import { Docs } from './components/sections/Docs'
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -24,9 +25,10 @@ function App() {
       <Home />
       <About />
       <Projects />
-      <Contact />
+      <Docs />
       <Resume/>
       <CV />
+      <Contact />
       </div>
     </>
   )

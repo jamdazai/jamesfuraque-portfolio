@@ -28,10 +28,10 @@ export const Projects = () => {
                     </div>
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
-                        <h3 className="text-xl font-bold mb-2">Tic Tac Toe 2.0 🎮</h3>
-                        <p className="text-gray-400 mb-4">Tic Tac Toe 2.0 is a web-based multiplayer game built with React.js (frontend) and Flask (Python) (backend), featuring Best of 3 / Best of 5 game modes, real-time score tracking, and dynamic UI animations. I developed this as a web-based version because my previous Tic Tac Toe game was only running locally through Tkinter, and I didn't create an executable file for it; the frontend is deployed on Vercel, while the backend runs on Render, enabling seamless API communication using Axios. 🎯🔥</p>
+                        <h3 className="text-xl font-bold mb-2">Bill of Lading Automation System📦</h3>
+                        <p className="text-gray-400 mb-4">This project is an OCR-powered logistics system developed during my internship to automate Bill of Lading data extraction, significantly reducing manual processing time by 40%. It improves data accuracy by implementing advanced text parsing techniques, ensuring structured and reliable logistics information. To enhance efficiency, the system optimizes performance through scalable API design, reducing data retrieval time by 25%.</p>
                             <div className="flex flex-wrap gap-2">
-                                {["Python", "Flask", "JavaScript", "React", "Axios", "HTML/CSS"].map((tech, key) => (
+                                {["JavaScript", "Python", "React", "Node.js", "Express", "Axios", "HTML/CSS"].map((tech, key) => (
                                     <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
                                             hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                                         {tech}
@@ -40,7 +40,7 @@ export const Projects = () => {
                             </div>
 
                             <div className="flex justify-between items-center my-4">
-                                <a href="https://tictactoe-jam.vercel.app/" className="text-blue-400 hover:text-blue-300 transition-colors"> View Project → </a>
+                                <a href="https://github.com/jamdazai/OCR_Project" className="text-blue-400 hover:text-blue-300 transition-colors"> Private Project → </a>
                             </div>
                     </div>
 
@@ -58,6 +58,23 @@ export const Projects = () => {
 
                             <div className="flex justify-between items-center my-4">
                                 <a href="https://github.com/jamdazai/WebAppDev" className="text-blue-400 hover:text-blue-300 transition-colors"> View Project → </a>
+                            </div>
+                    </div>
+
+                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
+                        <h3 className="text-xl font-bold mb-2">Tic Tac Toe 2.0 🎮</h3>
+                        <p className="text-gray-400 mb-4">Tic Tac Toe 2.0 is a web-based multiplayer game built with React.js (frontend) and Flask (Python) (backend), featuring Best of 3 / Best of 5 game modes, real-time score tracking, and dynamic UI animations. I developed this as a web-based version because my previous Tic Tac Toe game was only running locally through Tkinter, and I didn't create an executable file for it; the frontend is deployed on Vercel, while the backend runs on Render, enabling seamless API communication using Axios. 🎯🔥</p>
+                            <div className="flex flex-wrap gap-2">
+                                {["Python", "Flask", "JavaScript", "React", "Axios", "HTML/CSS"].map((tech, key) => (
+                                    <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                                            hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                        {tech}
+                                    </span>
+                                ))}
+                            </div>
+
+                            <div className="flex justify-between items-center my-4">
+                                <a href="https://tictactoe-jam.vercel.app/" className="text-blue-400 hover:text-blue-300 transition-colors"> View Project → </a>
                             </div>
                     </div>
 
